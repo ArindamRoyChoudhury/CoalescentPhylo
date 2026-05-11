@@ -2,7 +2,7 @@
 
 ## Overview
 
-`CoalescentPhylo` is an R package for phylogenetic tree estimation through the method of root distances from allele count data using the coalescent model
+`CoalescentPhylo` is an R package for phylogenetic tree estimation through the method of root distances from allele count data using the coalescent model.
 ## Installation
 
 Install the released version of this package from CRAN
