@@ -56,9 +56,13 @@ Human_Allele_Count_Data[1:3, 1:5]
 # Check for missing data
 anyNA(Human_Allele_Count_Data)
 
-\dontrun{
+\donttest{
+# NOTE: For CRAN testing, we use n.cores = 1 for compatibility.
+# In practice, users may set n.cores = NULL to use all available cores
+# and speed up computation.
+
 # Estimate phylogenetic tree using the Coalescent Model
-tree <- RD(mat_allele_count = Human_Allele_Count_Data, n.cores = NULL)
+tree <- RD(mat_allele_count = Human_Allele_Count_Data, n.cores = 1)
 
 # Summarize the result
 print(tree)
