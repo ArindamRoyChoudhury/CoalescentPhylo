@@ -1,5 +1,5 @@
 Package: CoalescentPhylo
-Title: Phylogenetic Tree Estimation Through the Method of Root Distances from Allele Count Data Using the Coalescent Model
+Title: Phylogenetics via Root Distances Method Under the Coalescent
 Version: 0.1.0
 Authors@R: c(
     person("Arindam", "RoyChoudhury", , "arr2014@med.cornell.edu", role = c("aut", "cre", "cph")),
